@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: David Cramer <dcramer@gmail.com>
 Homepage: https://github.com/dcramer/django-indexer
 Bugs: https://github.com/dcramer/django-indexer/issues
-Build-Depends: debhelper, python-support
+Build-Depends: debhelper, python-support, python-setuptools
 
 Package: python-django-indexer
 Architecture: all
