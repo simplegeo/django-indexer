@@ -11,6 +11,12 @@ setup(
     url='http://github.com/dcramer/django-indexer',
     packages=find_packages(),
     zip_safe=False,
+    tests_require=[
+        'django',
+        'unittest2',
+        'south',
+    ],
+    test_suite='indexer.runtests.runtests',
     include_package_data=True,
     classifiers=[
         "Framework :: Django",
